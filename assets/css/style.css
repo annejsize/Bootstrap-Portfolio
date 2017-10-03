@@ -27,8 +27,6 @@ body {
     font-weight: 700;
     color: #fff;
     background: #4aaaa5;
-    margin-left:100px;
-
 }
 
 #bio-image {
@@ -90,9 +88,8 @@ footer {
   border-top: 8px solid #4aaaa5;
 }
 
-#panel-margins {
-/*  margin-top: 1px; */
-  border-radius: 0;
+#panel-border {
+    border-color: #ddd;
 }
 
  /* —----Font Styling----- 
@@ -132,8 +129,17 @@ p:last-child {
     margin-bottom: 20px;
 }
 
+p {
+  padding: 0 15px 0 0;
+}
+
 .bottom-pad {
   margin-bottom: 15px;
+}
+
+.pad-me-pls {
+  padding: 10px;
+  margin:0;
 }
 
  /* 
